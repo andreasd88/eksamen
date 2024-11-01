@@ -1,0 +1,76 @@
+/*universal velger som gjelder for alle HTML-elementer på siden*/
+* {
+    /*Dette gjøres slika t bilde blie eksakt 1000*600*/
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body,
+html {
+    height: 100%;
+    font-family: Arial, sans-serif;
+    background-color: (to right, lightblue, #33b5e5);
+    background-image: linear-gradient(to right, lightblue, #33b5e5);
+}
+
+h1 {
+    padding-bottom: 20px;
+}
+
+p {
+    padding: 20px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+h4 {
+    padding: 20px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+
+
+.container {
+    display: flex;
+    height: 100vh;
+    /* Full høyde på skjermen */
+}
+
+.text-side {
+    padding: 20px;
+    margin-top: 30vh;
+    /* Flytter innholdet ned på siden for å det til å se ut som layout */
+}
+
+.image-side img {
+    width: 1000px;
+    height: 600px;
+}
+
+.menu-button {
+    margin: 10px 0 0 20px;
+    background-color: #4CAF50;
+    padding: 10px 10px;
+    /* Øker størrelsen på knappen */
+    font-size: 10px;
+    /* Endrer skriftstørrelsen */
+    border: none;
+    /* Fjerner standard kantlinje */
+    border-radius: 50px;
+    /* Gjør kantene avrundede */
+    background-color: #4CAF50;
+    /* Sett en bakgrunnsfarge */
+    color: white;
+    /* Farge på teksten */
+}
+
+
+footer {
+    text-align: center;
+}
+
+footer .boldP {
+    font-weight: bold;
+}

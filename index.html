@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="no">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KoP</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="menu">
+            <button class="menu-button">Meny</button>
+        </div>
+    </header>
+    <div class="container">
+        <div class="text-side">
+            <h1>Fargekoder</h1>
+            <h4>1. Bakgrunnsfarger</h4>
+            <p>Dette er tekstinnholdet ditt. Her kan du legge inn all teksten du ønsker skal vises på den ene siden.</p>
+            <h4>2. Menyfarge</h4>
+            <p>background-color: #4CAF50;</p>
+        </div>
+        <div class="image-side">
+            <img src="./img/eple.jpg" alt="Beskrivelse av bildet">
+        </div>
+    </div>
+    <footer>
+        <p class="boldP">Copyright ©</p>
+        <br>
+        <p class="boldP">Dato, og klokkeslett generet ved JavaScript</p>
+        <p id="demo"></p>
+        <script>
+            const d = new Date();
+            document.getElementById("demo").innerHTML = d;
+        </script>
+    </footer>
+</body>
+
+</html>
